@@ -1,0 +1,27 @@
+<div class="row" id="toggleRow">
+    <div class="col-4">
+          <article class="toggleClass">
+              content
+           </article>
+     </div>
+     <div class="col-4">
+          <article class="toggleClass">
+              content
+           </article>
+     </div>
+     <div class="col-4">
+          <article class="toggleClass">
+              content
+           </article>
+     </div>
+</div>
+
+<script type='text/javascript' src='toggle_class.js'></script>
+<script>
+  const toggleActive = new activeClassToggle("toggleRow","toggleClass","active";
+  const activeColumns = document.getElementById('toggleRow').getElementsByClassName('toggleClass');
+  
+  for (let i=0; i < activeColumns.length; i++) {
+     activeColumns[i].addEventListener("click", () => { activeClass.setActive(activeClass.activeCol(),i) });
+  }
+</script>
